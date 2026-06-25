@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block admin panel and Firebase endpoints from crawling
+Disallow: /?admin
+Disallow: /?vd-admin
+Disallow: /admin
+Disallow: /.firebase/
+Disallow: /__/
+
+# Sitemap
+Sitemap: https://vedantamdental.in/sitemap.xml
