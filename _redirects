@@ -1,0 +1,6 @@
+# Redirect www to non-www (canonical domain)
+https://www.vedantamdental.in/* https://vedantamdental.in/:splat 301
+
+# Redirect HTTP to HTTPS (belt-and-suspenders — Cloudflare also handles this)
+http://vedantamdental.in/* https://vedantamdental.in/:splat 301
+http://www.vedantamdental.in/* https://vedantamdental.in/:splat 301
