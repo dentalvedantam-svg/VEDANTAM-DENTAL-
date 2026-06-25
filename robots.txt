@@ -1,0 +1,14 @@
+# robots.txt — vedantamdental.in
+# Updated: 2026-06-26
+
+User-agent: *
+Allow: /
+
+# Block admin panel from indexing (hidden triple-click panel)
+Disallow: /admin
+
+# Block any internal search or API paths if added later
+Disallow: /api/
+
+# Sitemap location — tells all search engines where to find it
+Sitemap: https://vedantamdental.in/sitemap.xml
